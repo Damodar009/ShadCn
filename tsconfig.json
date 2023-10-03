@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@shadcn-next-skeleton/shared": ["shared/src/index.ts"],
+      "@shadcn-next-skeleton/shared/*": ["shared/src/*"]
+    }
+  }
+}

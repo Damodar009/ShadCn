@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@shadcn-next-skeleton/shared": ["shared/src/index.ts"],
+      "@shadcn-next-skeleton/shared/server": ["shared/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
