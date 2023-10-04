@@ -1,21 +1,16 @@
-import {
-  Accordion,
-  AccordionItem,
-  AccordionTrigger,
-  AccordionContent,
-} from '@shadcn-next-skeleton/shared';
+import * as React from 'react';
+import { HeaderNavbar } from '../containers/header';
+import { Sidebar } from '../containers/sidebar';
 export default async function Index() {
   return (
-    <>
-      <div className="bg-indigo-500 p-2 font-mono">Hello!</div>
-      <Accordion type="single" collapsible>
-        <AccordionItem value="item-1">
-          <AccordionTrigger>Is it accessible?</AccordionTrigger>
-          <AccordionContent>
-            Yes. It adheres to the WAI-ARIA design pattern.
-          </AccordionContent>
-        </AccordionItem>
-      </Accordion>
-    </>
+    <div className="bg-background">
+      <HeaderNavbar />
+      <div className="border-t">
+        <div className="grid lg:grid-cols-5">
+          <Sidebar />
+          <div className="col-span-3 lg:col-span-4 lg:border-l">hello</div>
+        </div>
+      </div>
+    </div>
   );
 }
