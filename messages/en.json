@@ -1,0 +1,17 @@
+{
+  "Index": {
+    "title": "Hello world!",
+    "coming soon": "coming soon"
+  },
+  "Login": {
+    "Welcome back, Login with": "Welcome back, Login with",
+    "Google": "Google",
+    "Twitter": "Twitter",
+    "Or continue with email": "Or continue with email",
+    "Email": "Email",
+    "Password": "Password",
+    "Forgot password": "Forgot password?",
+    "login": "login",
+    "Your password": "Your password"
+  }
+}

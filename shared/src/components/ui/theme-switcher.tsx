@@ -5,8 +5,7 @@ import { MoonIcon, SunIcon } from '@radix-ui/react-icons';
 import { useTheme } from 'next-themes';
 
 import { Button } from './button';
-
-export function ThemeSwitcher() {
+const ThemeSwitcher = () => {
   const { theme, setTheme } = useTheme();
 
   return (
@@ -26,4 +25,5 @@ export function ThemeSwitcher() {
       <span className="sr-only">Toggle theme</span>
     </Button>
   );
-}
+};
+export { ThemeSwitcher };

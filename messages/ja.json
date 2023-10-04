@@ -1,0 +1,17 @@
+{
+  "Index": {
+    "title": "こんにちは世界",
+    "coming soon": "近日公開"
+  },
+  "Login": {
+    "Welcome back, Login with": "おかえりなさい、ログインしてください",
+    "Google": "グーグル",
+    "Twitter": "ツイッター",
+    "Or continue with email": "またはメールで続行してください",
+    "Email": "Eメール",
+    "Password": "パスワード",
+    "Forgot password": "パスワードをお忘れですか?",
+    "login": "ログイン",
+    "Your password": "あなたのパスワード"
+  }
+}
