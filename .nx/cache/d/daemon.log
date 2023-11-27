@@ -1,0 +1,23 @@
+[NX Daemon Server] - 2023-11-27T04:19:22.174Z - Started listening on: /var/folders/0g/k31x_2h950q2zftwzxw7dvj00000gn/T/ee243c9689b2dcc47f62/d.sock
+[NX Daemon Server] - 2023-11-27T04:19:22.177Z - [WATCHER]: Subscribed to changes within: /Users/readytowork/Desktop/office/shadcn-next-skeleton (native)
+[NX Daemon Server] - 2023-11-27T04:19:22.179Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-27T04:19:22.180Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-11-27T04:19:22.184Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-11-27T04:19:22.234Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-11-27T04:19:22.234Z - [REQUEST]: 
+[NX Daemon Server] - 2023-11-27T04:19:22.234Z - [REQUEST]: 
+[NX Daemon Server] - 2023-11-27T04:19:22.305Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-11-27T04:19:22.306Z - Time taken for 'total for creating and serializing project graph' 120.6496250629425ms
+[NX Daemon Server] - 2023-11-27T04:19:22.306Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-27T04:19:22.312Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-11-27T04:19:22.313Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 120. Response time: 9.
+[NX Daemon Server] - 2023-11-27T04:19:22.314Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-11-27T04:19:22.315Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-27T04:19:22.315Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-11-27T04:19:22.315Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-11-27T04:19:22.316Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2023-11-27T04:19:22.316Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2023-11-27T04:19:22.316Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2023-11-27T04:19:36.839Z - [WATCHER]: Stopping the watcher for /Users/readytowork/Desktop/office/shadcn-next-skeleton (sources)
+[NX Daemon Server] - 2023-11-27T04:19:36.839Z - [WATCHER]: Stopping the watcher for /Users/readytowork/Desktop/office/shadcn-next-skeleton (outputs)
+[NX Daemon Server] - 2023-11-27T04:19:36.839Z - Server stopped because: "received process SIGTERM"

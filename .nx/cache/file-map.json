@@ -9,11 +9,11 @@
     "@swc/helpers": "~0.5.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
-    "next": "13.4.1",
+    "next": "^14.0.2",
     "next-intl": "^3.0.0-beta.19",
     "next-themes": "^0.2.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "tailwind-merge": "^1.14.0",
     "tailwindcss-animate": "^1.0.7",
     "tslib": "^2.3.0",
@@ -66,7 +66,201 @@
   },
   "nxJsonPlugins": [],
   "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "12132901369968695411"
+      },
+      {
+        "file": ".nx/cache/d/daemon.log",
+        "hash": "8383508027439585628"
+      },
+      {
+        "file": ".nx/cache/d/server-process.json",
+        "hash": "4594892038612692823"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "14629756161558762881"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "8487719126877604339"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "16073085004241877289"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "4255173108786882318"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "8865097869854018350"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "235626400633494639"
+      },
+      {
+        "file": "README.md",
+        "hash": "17122751628998125024"
+      },
+      {
+        "file": "components.json",
+        "hash": "17326712924582141559"
+      },
+      {
+        "file": "i18n.ts",
+        "hash": "8603642915293792973"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "messages/en.json",
+        "hash": "8037246003446357057"
+      },
+      {
+        "file": "messages/ja.json",
+        "hash": "18039292967752275904"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "3573975935197200620"
+      },
+      {
+        "file": "nx.json",
+        "hash": "7160958458508056919"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "12688522888388437117"
+      },
+      {
+        "file": "package.json",
+        "hash": "4969968224866429627"
+      },
+      {
+        "file": "tailwind-preset.js",
+        "hash": "1274636683597921217"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "12714148493763611191"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "7764126571591634556"
+      }
+    ],
     "projectFileMap": {
+      "web-e2e": [
+        {
+          "file": "apps/web-e2e/.eslintrc.json",
+          "hash": "14060216369337943343"
+        },
+        {
+          "file": "apps/web-e2e/cypress.config.ts",
+          "hash": "15414076024138857470",
+          "deps": [
+            "npm:cypress",
+            "npm:@nx/cypress"
+          ]
+        },
+        {
+          "file": "apps/web-e2e/project.json",
+          "hash": "10798608622569599369"
+        },
+        {
+          "file": "apps/web-e2e/src/e2e/app.cy.ts",
+          "hash": "12487085710781836760"
+        },
+        {
+          "file": "apps/web-e2e/src/fixtures/example.json",
+          "hash": "11614668686582597233"
+        },
+        {
+          "file": "apps/web-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/web-e2e/src/support/commands.ts",
+          "hash": "7314691991044890572"
+        },
+        {
+          "file": "apps/web-e2e/src/support/e2e.ts",
+          "hash": "3666078656922506009"
+        },
+        {
+          "file": "apps/web-e2e/tsconfig.json",
+          "hash": "1788248097864730386"
+        }
+      ],
+      "docs-e2e": [
+        {
+          "file": "apps/docs-e2e/.eslintrc.json",
+          "hash": "14060216369337943343"
+        },
+        {
+          "file": "apps/docs-e2e/cypress.config.ts",
+          "hash": "15414076024138857470",
+          "deps": [
+            "npm:cypress",
+            "npm:@nx/cypress"
+          ]
+        },
+        {
+          "file": "apps/docs-e2e/project.json",
+          "hash": "7913020896439279811"
+        },
+        {
+          "file": "apps/docs-e2e/src/e2e/app.cy.ts",
+          "hash": "18371663760237300137"
+        },
+        {
+          "file": "apps/docs-e2e/src/fixtures/example.json",
+          "hash": "11614668686582597233"
+        },
+        {
+          "file": "apps/docs-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/docs-e2e/src/support/commands.ts",
+          "hash": "7314691991044890572"
+        },
+        {
+          "file": "apps/docs-e2e/src/support/e2e.ts",
+          "hash": "3666078656922506009"
+        },
+        {
+          "file": "apps/docs-e2e/tsconfig.json",
+          "hash": "1788248097864730386"
+        }
+      ],
       "docs": [
         {
           "file": "apps/docs/.eslintrc.json",
@@ -160,88 +354,95 @@
           "hash": "6922413205408300107"
         }
       ],
-      "docs-e2e": [
+      "shared": [
         {
-          "file": "apps/docs-e2e/.eslintrc.json",
-          "hash": "14060216369337943343"
+          "file": "shared/.eslintrc.json",
+          "hash": "7388911630545237055"
         },
         {
-          "file": "apps/docs-e2e/cypress.config.ts",
-          "hash": "15414076024138857470",
+          "file": "shared/README.md",
+          "hash": "4177710660839030163"
+        },
+        {
+          "file": "shared/project.json",
+          "hash": "2201960328068568120"
+        },
+        {
+          "file": "shared/src/components/ui/accordion.tsx",
+          "hash": "5128632806470944826",
           "deps": [
-            "npm:cypress",
-            "npm:@nx/cypress"
+            "npm:react",
+            "npm:@radix-ui/react-accordion",
+            "npm:@radix-ui/react-icons"
           ]
         },
         {
-          "file": "apps/docs-e2e/project.json",
-          "hash": "7913020896439279811"
-        },
-        {
-          "file": "apps/docs-e2e/src/e2e/app.cy.ts",
-          "hash": "18371663760237300137"
-        },
-        {
-          "file": "apps/docs-e2e/src/fixtures/example.json",
-          "hash": "11614668686582597233"
-        },
-        {
-          "file": "apps/docs-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
-        },
-        {
-          "file": "apps/docs-e2e/src/support/commands.ts",
-          "hash": "7314691991044890572"
-        },
-        {
-          "file": "apps/docs-e2e/src/support/e2e.ts",
-          "hash": "3666078656922506009"
-        },
-        {
-          "file": "apps/docs-e2e/tsconfig.json",
-          "hash": "1788248097864730386"
-        }
-      ],
-      "web-e2e": [
-        {
-          "file": "apps/web-e2e/.eslintrc.json",
-          "hash": "14060216369337943343"
-        },
-        {
-          "file": "apps/web-e2e/cypress.config.ts",
-          "hash": "15414076024138857470",
+          "file": "shared/src/components/ui/button.tsx",
+          "hash": "18068060026426294638",
           "deps": [
-            "npm:cypress",
-            "npm:@nx/cypress"
+            "npm:react",
+            "npm:@radix-ui/react-slot",
+            "npm:class-variance-authority"
           ]
         },
         {
-          "file": "apps/web-e2e/project.json",
-          "hash": "10798608622569599369"
+          "file": "shared/src/components/ui/lang-switcher.tsx",
+          "hash": "9532988984992771003",
+          "deps": [
+            "npm:react",
+            "npm:next-intl"
+          ]
         },
         {
-          "file": "apps/web-e2e/src/e2e/app.cy.ts",
-          "hash": "12487085710781836760"
+          "file": "shared/src/components/ui/navigation-menu.tsx",
+          "hash": "12865088873636661998",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-icons",
+            "npm:@radix-ui/react-navigation-menu",
+            "npm:class-variance-authority"
+          ]
         },
         {
-          "file": "apps/web-e2e/src/fixtures/example.json",
-          "hash": "11614668686582597233"
+          "file": "shared/src/components/ui/theme-provider.tsx",
+          "hash": "9455864880087824335",
+          "deps": [
+            "npm:react",
+            "npm:next-themes"
+          ]
         },
         {
-          "file": "apps/web-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
+          "file": "shared/src/components/ui/theme-switcher.tsx",
+          "hash": "7973541097078409575",
+          "deps": [
+            "npm:react",
+            "npm:@radix-ui/react-icons",
+            "npm:next-themes"
+          ]
         },
         {
-          "file": "apps/web-e2e/src/support/commands.ts",
-          "hash": "7314691991044890572"
+          "file": "shared/src/index.ts",
+          "hash": "10946283088281965945"
         },
         {
-          "file": "apps/web-e2e/src/support/e2e.ts",
-          "hash": "3666078656922506009"
+          "file": "shared/src/server.ts",
+          "hash": "8912437808649717296"
         },
         {
-          "file": "apps/web-e2e/tsconfig.json",
-          "hash": "1788248097864730386"
+          "file": "shared/src/utils/index.ts",
+          "hash": "15456290709904554663",
+          "deps": [
+            "npm:clsx",
+            "npm:tailwind-merge"
+          ]
+        },
+        {
+          "file": "shared/tsconfig.json",
+          "hash": "8794291623869404963"
+        },
+        {
+          "file": "shared/tsconfig.lib.json",
+          "hash": "14501583329670895298"
         }
       ],
       "web": [
@@ -359,184 +560,7 @@
           "file": "apps/web/tsconfig.spec.json",
           "hash": "6922413205408300107"
         }
-      ],
-      "shared": [
-        {
-          "file": "shared/.eslintrc.json",
-          "hash": "7388911630545237055"
-        },
-        {
-          "file": "shared/README.md",
-          "hash": "4177710660839030163"
-        },
-        {
-          "file": "shared/project.json",
-          "hash": "2201960328068568120"
-        },
-        {
-          "file": "shared/src/components/ui/accordion.tsx",
-          "hash": "5128632806470944826",
-          "deps": [
-            "npm:react",
-            "npm:@radix-ui/react-accordion",
-            "npm:@radix-ui/react-icons"
-          ]
-        },
-        {
-          "file": "shared/src/components/ui/button.tsx",
-          "hash": "18068060026426294638",
-          "deps": [
-            "npm:react",
-            "npm:@radix-ui/react-slot",
-            "npm:class-variance-authority"
-          ]
-        },
-        {
-          "file": "shared/src/components/ui/lang-switcher.tsx",
-          "hash": "9532988984992771003",
-          "deps": [
-            "npm:react",
-            "npm:next-intl"
-          ]
-        },
-        {
-          "file": "shared/src/components/ui/navigation-menu.tsx",
-          "hash": "12865088873636661998",
-          "deps": [
-            "npm:react",
-            "npm:@radix-ui/react-icons",
-            "npm:@radix-ui/react-navigation-menu",
-            "npm:class-variance-authority"
-          ]
-        },
-        {
-          "file": "shared/src/components/ui/theme-provider.tsx",
-          "hash": "9455864880087824335",
-          "deps": [
-            "npm:react",
-            "npm:next-themes"
-          ]
-        },
-        {
-          "file": "shared/src/components/ui/theme-switcher.tsx",
-          "hash": "7973541097078409575",
-          "deps": [
-            "npm:react",
-            "npm:@radix-ui/react-icons",
-            "npm:next-themes"
-          ]
-        },
-        {
-          "file": "shared/src/index.ts",
-          "hash": "10946283088281965945"
-        },
-        {
-          "file": "shared/src/server.ts",
-          "hash": "8912437808649717296"
-        },
-        {
-          "file": "shared/src/utils/index.ts",
-          "hash": "15456290709904554663",
-          "deps": [
-            "npm:clsx",
-            "npm:tailwind-merge"
-          ]
-        },
-        {
-          "file": "shared/tsconfig.json",
-          "hash": "8794291623869404963"
-        },
-        {
-          "file": "shared/tsconfig.lib.json",
-          "hash": "14501583329670895298"
-        }
       ]
-    },
-    "nonProjectFiles": [
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "17866138117546000433"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "12132901369968695411"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "8865097869854018350"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "235626400633494639"
-      },
-      {
-        "file": "README.md",
-        "hash": "17122751628998125024"
-      },
-      {
-        "file": "components.json",
-        "hash": "17326712924582141559"
-      },
-      {
-        "file": "i18n.ts",
-        "hash": "8603642915293792973"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "12333515226966617182"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "messages/en.json",
-        "hash": "8037246003446357057"
-      },
-      {
-        "file": "messages/ja.json",
-        "hash": "18039292967752275904"
-      },
-      {
-        "file": "migrations.json",
-        "hash": "3573975935197200620"
-      },
-      {
-        "file": "nx.json",
-        "hash": "7160958458508056919"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "6865956502115327614"
-      },
-      {
-        "file": "package.json",
-        "hash": "13057035340558217338"
-      },
-      {
-        "file": "tailwind-preset.js",
-        "hash": "1274636683597921217"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "12714148493763611191"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "7764126571591634556"
-      }
-    ]
+    }
   }
 }
