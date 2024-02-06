@@ -1,7 +1,7 @@
 'use client';
-import * as React from 'react';
 import { useLocale } from 'next-intl';
-import { usePathname, useRouter } from 'next-intl/client';
+import * as React from 'react';
+
 import { Button } from './button';
 const getFlagEmoji = (countryCode: string) =>
   String.fromCodePoint(
@@ -12,12 +12,11 @@ const getFlagEmoji = (countryCode: string) =>
 const LangSwitcher = () => {
   const [_, startTransition] = React.useTransition();
   const locale = useLocale();
-  const router = useRouter();
-  const pathname = usePathname();
+
   const onLanguageChange = (value: string) => {
     const nextLocale = value;
     startTransition(() => {
-      router.replace(pathname, { locale: nextLocale });
+     // router.replace(pathname, { locale: nextLocale });
     });
   };
   return (
