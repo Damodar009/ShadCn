@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx serve web",
+    "startTime": "2024-01-26T15:25:56.343Z",
+    "endTime": "2024-01-26T15:25:57.181Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "web:serve:development",
+      "target": "serve",
+      "projectName": "web",
+      "hash": "2451372194912085087",
+      "startTime": "2024-01-26T15:25:56.346Z",
+      "endTime": "2024-01-26T15:25:57.180Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

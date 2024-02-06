@@ -1,0 +1,21 @@
+/Users/user_one/shadcn-next-skeleton/node_modules/next/dist/server/web/spec-extension/request.js:28
+class NextRequest extends Request {
+                          ^
+
+ReferenceError: Request is not defined
+    at Object.<anonymous> (/Users/user_one/shadcn-next-skeleton/node_modules/next/dist/server/web/spec-extension/request.js:28:27)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at Module.mod.require (/Users/user_one/shadcn-next-skeleton/node_modules/next/dist/server/require-hook.js:64:28)
+    at require (node:internal/modules/cjs/helpers:108:18)
+    at Object.<anonymous> (/Users/user_one/shadcn-next-skeleton/node_modules/next/dist/server/web/spec-extension/adapters/next-request.js:37:18)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+[?25h
+
+ [31m>[39m [0m[7m[1m[31m NX [39m[22m[27m[0m  [31mCannot destructure property 'success' of '(intermediate value)' as it is undefined.[39m
+
+   Pass --verbose to see the stacktrace.
+
