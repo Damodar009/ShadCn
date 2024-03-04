@@ -81,3 +81,22 @@
     font-feature-settings: 'rlig' 1, 'calt' 1;
   }
 }
+
+
+@layer base {
+  @keyframes moveUpAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .move-up:hover {
+    animation: moveUpAnimation 0.3s ease;
+  }
+}

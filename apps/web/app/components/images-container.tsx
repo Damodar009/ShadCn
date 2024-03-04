@@ -16,14 +16,15 @@ const ImageComponent: React.FC<ProductImageProps> = ({ imageUrl }) => {
   const prevImage = () => {
     setCurrentImage((prev) => (prev - 1 + images.length) % images.length);
   };
-  
+
   return (
     <div className="flex">
       <div className="">
         {images.map((image, index) => (
           <div className=" p-3">
             <Image
-              src={images[currentImage]}
+              key={index}
+              src={image}
               alt="Photo by Drew Beamer"
               height={25}
               width={30}
